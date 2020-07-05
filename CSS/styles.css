@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  background: #4d3e3e;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background: #ffc38b;
+  transition: .5s;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+  background-color: #F3ECEC;
+}
+
+hr {
+  background: transparent;
+  border-color: #CDC1C1;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+  position: relative;
+  margin: 30px auto 30px auto;
+  clear: both;
+}
+
+h1 {
+  font-size: 9.375rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #ffc38b;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffc38b;
+  clear: both;
+  margin: 50px;
+}
+
+h2.title {
+  position: relative;
+  width: 70%;
+  margin: auto 15% auto;
+  font-weight: normal;
+}
+
+h3 {
+  padding: 1%;
+  font-family: 'Montserrat', sans-serif;
+  color: #4d3e3e;
+}
+
+.nb {
+  color: white;
+}
+
+img {
+  margin: 30px;
+}
+
+.penguin {
+  width: 50px;
+  float: left;
+  margin-left: 40px;
+}
+
+.top-container {
+  background-color: #fff3cd;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+
+.middle-container {}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  margin: 20px auto auto auto;
+  background-color: #ff926b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.computer-img {
+  float: left;
+  width: 25%;
+  border-radius: 50%;
+}
+
+.lol-img {
+  padding-left: 30px;
+  float: right;
+  width: 20%;
+}
+
+.footer-link {
+  color: white;
+  padding: 50px;
+}
+
+.credits {
+  color: white;
+  font-size: 75%;
+  padding-top: 50px;
+}
+
+.contact-message {
+  margin: 50px;
+}
+
+.btn {
+  clear: both;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #4d3e3e;
+  font-size: 20px;
+  background: #fff3cd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffc38b;
+  text-decoration: none;
+}
